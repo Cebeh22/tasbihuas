@@ -57,9 +57,9 @@ public class MainJFrameGUI extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        bodyP.setBackground(new java.awt.Color(153, 0, 153));
+        bodyP.setBackground(new java.awt.Color(102, 102, 102));
 
-        hadistlistP.setBackground(new java.awt.Color(153, 0, 153));
+        hadistlistP.setBackground(new java.awt.Color(102, 102, 102));
         hadistlistP.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 3));
 
         btnH1.setText("Hadist 1");
@@ -107,7 +107,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        tasbihP.setBackground(new java.awt.Color(153, 0, 153));
+        tasbihP.setBackground(new java.awt.Color(102, 102, 102));
         tasbihP.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 3));
 
         jButton1.setText("count");
@@ -170,10 +170,10 @@ public class MainJFrameGUI extends javax.swing.JFrame {
         hadistP.setBackground(new java.awt.Color(153, 0, 153));
         hadistP.setLayout(new java.awt.CardLayout());
 
-        hadist1.setBackground(new java.awt.Color(153, 0, 153));
+        hadist1.setBackground(new java.awt.Color(102, 102, 102));
         hadist1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 3));
 
-        jTextArea1.setBackground(new java.awt.Color(153, 0, 153));
+        jTextArea1.setBackground(new java.awt.Color(102, 102, 102));
         jTextArea1.setColumns(20);
         jTextArea1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextArea1.setForeground(new java.awt.Color(255, 255, 255));
