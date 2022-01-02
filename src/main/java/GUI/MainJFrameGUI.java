@@ -200,10 +200,10 @@ public class MainJFrameGUI extends javax.swing.JFrame {
 
         hadistP.add(hadist1, "card2");
 
-        hadist2.setBackground(new java.awt.Color(153, 0, 153));
+        hadist2.setBackground(new java.awt.Color(102, 102, 102));
         hadist2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 3));
 
-        jTextArea2.setBackground(new java.awt.Color(153, 0, 153));
+        jTextArea2.setBackground(new java.awt.Color(102, 102, 102));
         jTextArea2.setColumns(20);
         jTextArea2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextArea2.setForeground(new java.awt.Color(255, 255, 255));
@@ -230,10 +230,10 @@ public class MainJFrameGUI extends javax.swing.JFrame {
 
         hadistP.add(hadist2, "card3");
 
-        hadist3.setBackground(new java.awt.Color(153, 0, 153));
+        hadist3.setBackground(new java.awt.Color(102, 102, 102));
         hadist3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255), 3));
 
-        jTextArea3.setBackground(new java.awt.Color(153, 0, 153));
+        jTextArea3.setBackground(new java.awt.Color(102, 102, 102));
         jTextArea3.setColumns(20);
         jTextArea3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jTextArea3.setForeground(new java.awt.Color(255, 255, 255));
