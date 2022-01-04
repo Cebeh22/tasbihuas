@@ -39,9 +39,9 @@ public class MainJFrameGUI extends javax.swing.JFrame {
         btnH3 = new javax.swing.JButton();
         tasbihP = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        Tasbihtxt = new javax.swing.JTextField();
         jButton2 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        Tasbihtxt = new javax.swing.JLabel();
         hadistP = new javax.swing.JPanel();
         hadist1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -117,13 +117,6 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             }
         });
 
-        Tasbihtxt.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        Tasbihtxt.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TasbihtxtActionPerformed(evt);
-            }
-        });
-
         jButton2.setText("reset");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -134,6 +127,10 @@ public class MainJFrameGUI extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Tasbih Counter");
+
+        Tasbihtxt.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        Tasbihtxt.setForeground(new java.awt.Color(255, 255, 255));
+        Tasbihtxt.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
         javax.swing.GroupLayout tasbihPLayout = new javax.swing.GroupLayout(tasbihP);
         tasbihP.setLayout(tasbihPLayout);
@@ -148,19 +145,22 @@ public class MainJFrameGUI extends javax.swing.JFrame {
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tasbihPLayout.createSequentialGroup()
                         .addGap(0, 2, Short.MAX_VALUE)
-                        .addGroup(tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(Tasbihtxt, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(114, 114, 114)))
                 .addContainerGap())
+            .addGroup(tasbihPLayout.createSequentialGroup()
+                .addGap(89, 89, 89)
+                .addComponent(Tasbihtxt)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         tasbihPLayout.setVerticalGroup(
             tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(tasbihPLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Tasbihtxt, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
+                .addComponent(Tasbihtxt)
+                .addGap(10, 10, 10)
                 .addGroup(tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2)
                     .addComponent(jButton1))
@@ -187,7 +187,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 443, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist1Layout.setVerticalGroup(
@@ -217,7 +217,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 443, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist2Layout.setVerticalGroup(
@@ -247,7 +247,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 443, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist3Layout.setVerticalGroup(
@@ -322,10 +322,6 @@ public class MainJFrameGUI extends javax.swing.JFrame {
         x++;
         Tasbihtxt.setText(Integer.toString(x));
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void TasbihtxtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TasbihtxtActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_TasbihtxtActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         x=0;
@@ -404,7 +400,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField Tasbihtxt;
+    private javax.swing.JLabel Tasbihtxt;
     private javax.swing.JPanel bodyP;
     private javax.swing.JButton btnH1;
     private javax.swing.JButton btnH2;
