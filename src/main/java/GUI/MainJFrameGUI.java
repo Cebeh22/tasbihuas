@@ -141,25 +141,21 @@ public class MainJFrameGUI extends javax.swing.JFrame {
                 .addGroup(tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(tasbihPLayout.createSequentialGroup()
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 75, Short.MAX_VALUE)
                         .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, tasbihPLayout.createSequentialGroup()
-                        .addGap(0, 2, Short.MAX_VALUE)
+                    .addGroup(tasbihPLayout.createSequentialGroup()
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(114, 114, 114)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(Tasbihtxt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
-            .addGroup(tasbihPLayout.createSequentialGroup()
-                .addGap(89, 89, 89)
-                .addComponent(Tasbihtxt)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         tasbihPLayout.setVerticalGroup(
             tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(tasbihPLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jLabel1)
                 .addGap(18, 18, 18)
-                .addComponent(Tasbihtxt)
+                .addComponent(Tasbihtxt, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(10, 10, 10)
                 .addGroup(tasbihPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton2)
@@ -187,7 +183,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist1Layout.setVerticalGroup(
@@ -217,7 +213,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist2Layout.setVerticalGroup(
@@ -247,7 +243,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             hadist3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(hadist3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 426, Short.MAX_VALUE)
                 .addContainerGap())
         );
         hadist3Layout.setVerticalGroup(
@@ -274,7 +270,7 @@ public class MainJFrameGUI extends javax.swing.JFrame {
             bodyPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(bodyPLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(hadistP, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(hadistP, javax.swing.GroupLayout.DEFAULT_SIZE, 456, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(bodyPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(bodyPLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
